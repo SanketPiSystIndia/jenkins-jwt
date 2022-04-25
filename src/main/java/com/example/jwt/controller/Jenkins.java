@@ -11,5 +11,10 @@ public class Jenkins {
 	public String jenkinsFunction() {
 		return "This is jenkins API";
 	}
+	
+	@GetMapping("jenkinsAPI2")
+	public String jenkinsFunction2() {
+		return "This is jenkins API 2";
+	}
 
 }
